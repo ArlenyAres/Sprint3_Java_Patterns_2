@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         BrokerObservable broker = new BrokerObservable();
 
-        BrokerageHouse1 brokerageHouse1 = new BrokerageHouse1();
-        BrokerageHouse2 brokerageHouse2 = new BrokerageHouse2();
-        BrokerageHouse3 brokerageHouse3 = new BrokerageHouse3();
+        BrokerageHouse brokerageHouse1 = new BrokerageHouse();
+        BrokerageHouse brokerageHouse2 = new BrokerageHouse();
+        BrokerageHouse brokerageHouse3 = new BrokerageHouse();
 
         broker.addObserver(brokerageHouse1);
         broker.addObserver(brokerageHouse2);
