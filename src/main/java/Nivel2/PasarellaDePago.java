@@ -6,6 +6,6 @@ public class PasarellaDePago {
         System.out.println("Procesando pago...");
         metodoPago.pagar();
 
-        System.out.println("Pago procesado correctaeamente con : " + metodoPago);
+        System.out.println(".... Pago procesado correctamente");
     }
 }

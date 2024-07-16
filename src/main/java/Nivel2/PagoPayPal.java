@@ -4,6 +4,6 @@ public class PagoPayPal implements Pago{
 
     @Override
     public void pagar(){
-        System.out.println("Realizando Pago con PayPal");
+        System.out.println("Realizando Pago  a traves de PayPal");
     }
 }
